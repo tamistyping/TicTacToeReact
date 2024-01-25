@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+
+.fullGrid {
+    /* display: flex;
+    flex-direction: column; */
+    height: 150px;
+    filter:drop-shadow(5px 5px 10px rgb(61, 67, 130));   
+}
+
+.board-wrapper{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.board-row {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    /* grid-gap: 5px 5px; */
+}
+
+button {
+    box-sizing: border-box;
+    color: rgb(61, 67, 130);
+    font-size: 50px;
+    font-family: 'Rubik Bubbles', system-ui !important;    
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    text-decoration: bold;
+}
+
+.playAgain {
+    margin-top: 20px;
+    font-size: 20px;
+    height:50px;
+    width: 150px;
+    border: solid 2px rgb(61, 67, 130);
+    filter:drop-shadow(5px 5px 10px rgb(61, 67, 130));
+}
+
+h2 {
+    color: white;
+    font-size: 30px;
+}
+
+.scoreboard {
+    border: 1px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
